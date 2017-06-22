@@ -1,25 +1,49 @@
 /*General*/
 body {
   font-family: 'Lato', sans-serif;
+  background-image: url("pattern-2.jpg");
 }
 /*Jumbo*/
 .jumbotron {
-  padding: 0%;
+  width: 100%;
+  font-size: 25px;
+  margin-top: 5%;
+  background: rgba(0, 0, 0, 0)
 }
 
 #paddle {
-  width: 30%;
-  height: 30%;
+  width: 15%;
+  height: 15%;
   margin-left: 30%;
 }
 
 .jumbotron p {
-  float: left;
-  margin-top: 15%;
+ display: none'
 }
 
 /*form*/
 
+#blanks {
+  margin-left: 60px;
+}
+
 .form-group {
   width: 30%;
+}
+
+.btn {
+  background-color: #ff2e4a;
+  color: #ffffff;
+}
+
+/*answer*/
+#reveal {
+  display: none;
+  width: 100%;
+  margin-top: 2%;
+  margin-left: 60px;
+}
+
+#cats img {
+  width: 100%;
 }

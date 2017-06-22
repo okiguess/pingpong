@@ -11,8 +11,8 @@
   <body>
     <div class="container">
       <div class="jumbotron">
+        Get your paddle ready and enter a number!
         <img id="paddle" src="img/paddle.gif" alt="ping_pong_paddle">
-        <p>Get your paddle ready and enter a number!</p>
       </div>
       <div id="blanks">
         <form>
@@ -22,9 +22,33 @@
           </div>
           <button type="submit" class="btn">Let's play!</button>
         </form>
-      <div id="answer">
-        <ul id="list">
-        </ul>
+      </div>
+      <div id="reveal">
+        <div class="row">
+          <div class="col-md-2">
+            <div class="well" id="answer">
+              <ul id="list">
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <div id="cats">
+              <img src="img/cat-ping-pong.gif" alt="cats_playing_ping_pong">
+            </div>
+          </div>
+          <div class="col-md-5">
+            <div class="well">
+              <h3>About Ping Pong</h3>
+              <p>Ping Pong will count up from 1 to the chosen number with the following exceptions:</p>
+
+              <ul>
+                <li>Numbers divisible by 3 are replaced with "ping"</li>
+                <li>Numbers divisible by 5 are replaced with "pong"</li>
+                <li>Numbers divisible by 15 are replaced with "ping pong"</li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </body>

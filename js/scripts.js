@@ -1,10 +1,5 @@
 //back-end
 var conditional = function (userInput) {
-  if (isNaN(userInput)) {
-    alert("must enter a number!");
-  } else if (userInput <= 0) {
-    alert("Come on! Enter a number higher than 0!");
-  }
   for (var currentNumber = 1; currentNumber <= userInput; currentNumber += 1) {
     if (currentNumber % 3 === 0) {
       $("#list").append("<li>ping</li>");
@@ -22,9 +17,16 @@ var conditional = function (userInput) {
 //front-end
 $(document).ready(function() {
   $("#blanks form").submit(function(event) {
-
     $("#list").empty();
+    $("#paddle").hide();
     var userInput = parseInt($("input#userNumber").val());
+    if (isNaN(userInput)) {
+      alert("You must enter a number!");
+    } else if (userInput <= 0) {
+      alert("Come on! Enter a number higher than 0!");
+    } else {
+      $("#reveal").show("slow");
+    };
     conditional(userInput);
     event.preventDefault();
   });
