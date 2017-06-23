@@ -1,8 +1,8 @@
-# _{Application Name}_
+# Ping Pong Game
 
-#### _{Brief description of application}, {Date of current version}_
+#### Epicodus Arrays and Looping Exercise, 06.22.2017
 
-#### By _**{List of contributors}**_
+#### By Camden Swita
 
 ## Description
 
@@ -11,26 +11,35 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 ## Specifications
 
 * It can count up to the desired number from 1
-⋅⋅* Example input: 2
-⋅⋅* Example output: 1, 2
+  * Example input: 2
+  * Example output: 1, 2
 * It can alert the user if they don't enter a number
-⋅⋅* Example input: "Hey"
-⋅⋅* Example output: "You must enter a number!"
+  * Example input: "Hey"
+  * Example output: "You must enter a number!"
 * It can alert the user if they enter a negative number
-⋅⋅* Example input: "Hey"
-⋅⋅* Example output: "Come on! Enter an number higher than zero!"
+  * Example input: "Hey"
+  * Example output: "Come on! Enter an number higher than zero!"
 * It can display all integers starting from 1 up to the entered number that are not divisible by 3 in list format
-⋅⋅* Example input: 2
-⋅⋅* Example output: <li>1</li><l1>2</li>
+  * Example input: 2
+  * Example output: <li>1</li><l1>2</li>
 * It can display all integers starting from 1 up to the entered number that are not divisible by 5 in list format
-⋅⋅* Example input: 2
-⋅⋅* Example output: <li>1</li><l1>2</li>
+  * Example input: 2
+  * Example output: <li>1</li><l1>2</li>
 * It can display all integers starting from 1 up to the entered number that are not divisible by 15 in list format
-⋅⋅* Example input: 2
-⋅⋅* Example output: <li>1</li><l1>2</li>
+  * Example input: 2
+  * Example output: <li>1</li><l1>2</li>
 * It can replace all integers between 1 and the entered number divisible by 3 with "ping" in list format
-⋅⋅* Example input: 3
-⋅⋅* Example output: <li>1</li><l1>2</li><li>ping</li>
+  * Example input: 3
+  * Example output: <li>1</li><l1>2</li><li>ping</li>
+* It can replace all integers between 1 and the entered number divisible by 5 with "pong" in list format
+  * Example input: 5
+  * Example output: <li>1</li><l1>2</li><li>ping</li><li>4</li><li>pong</li>
+* It can replace all integers between 1 and the entered number divisible by 15 with "ping pong" in list format
+  * Example input: 5
+  * Example output: ...<li>13</li><li>14</li><li>ping pong</li>
+* It hides HTML elements and shows others when user enter a number
+  * Example input: <submit>
+  * Example output: <show cat GIF, About Ping Pong section> <hide paddle GIF>
 
 ## Setup/Installation Requirements
 
