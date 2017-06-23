@@ -21,22 +21,40 @@ This simple web game demonstrates basic usage of javascript looping, back end an
   * Example output: "Come on! Enter an number higher than zero!"
 * It can display all integers starting from 1 up to the entered number that are not divisible by 3 in list format
   * Example input: 2
-  * Example output: <li>1</li><li>2</li>
+  * Example output:
+   * 1
+   * 2
 * It can display all integers starting from 1 up to the entered number that are not divisible by 5 in list format
   * Example input: 2
-  * Example output: <li>1</li><li>2</li>
+  * Example output:
+   * 1
+   * 2
 * It can display all integers starting from 1 up to the entered number that are not divisible by 15 in list format
   * Example input: 2
-  * Example output: <li>1</li><li>2</li>
+  * Example output:
+   * 1
+   * 2
 * It can replace all integers between 1 and the entered number divisible by 3 with "ping" in list format
   * Example input: 3
-  * Example output: <li>1</li><li>2</li><li>ping</li>
+  * Example output:
+   * 1
+   * 2
+   * ping
 * It can replace all integers between 1 and the entered number divisible by 5 with "pong" in list format
   * Example input: 5
-  * Example output: <li>1</li><li>2</li><li>ping</li><li>4</li><li>pong</li>
+  * Example output:
+   * 1
+   * 2
+   * ping
+   * 4
+   * pong
 * It can replace all integers between 1 and the entered number divisible by 15 with "ping pong" in list format
   * Example input: 5
-  * Example output: ...<li>13</li><li>14</li><li>ping pong</li>
+  * Example output:
+   * ...
+   * 13
+   * 14
+   * ping pong
 * It hides HTML elements and shows others when user enter a number
   * Example input: <submit>
   * Example output: <show cat GIF, About Ping Pong section> <hide paddle GIF>
